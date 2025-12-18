@@ -1,0 +1,3 @@
+Engineering: ['Alice', 'Bob']
+HR: ['Charlie']
+Sales: ['David', 'Eva']

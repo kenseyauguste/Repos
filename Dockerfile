@@ -13,7 +13,7 @@ RUN apt-get update \
 RUN pip install --no-cache-dir yt-dlp
 
 # Copy the converter script into the container
-COPY ./convertaudio.py /app/convertaudio.py
+COPY convertaudio.py /app/convertaudio.py
 
 # Set the default command to run the script
 CMD ["python", "convertaudio.py"]

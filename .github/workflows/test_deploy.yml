@@ -28,4 +28,4 @@ jobs:
           file:  ./Dockerfile
           context: .
           push: true
-          tags: kenseyauguste/convertaudio:latest
+          tags: ${{ secrets.DOCKER_USER }}/convertaudio:latest

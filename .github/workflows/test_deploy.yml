@@ -27,6 +27,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           file:  ./Dockerfile
-          context: ./app/convertaudio.py
+          context: .
           push: true
           tags: kenseyauguste/convertaudio:latest
